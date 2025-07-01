@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h4>Įveskite naujo automobilio duomenis:</h4>
+<form action="" method="post">
+    <p>Automaker:</p>
+    <p><input type="text" name="automakerlaukas"></p>
+    <p>Model:</p>
+    <p><input type="text" name="modellaukas"></p>
+    <p>Color:</p>
+    <p><input type="text" name="colorlaukas"></p>
+    <p>Year:</p>
+    <p><input type="text" name="yearlaukas"></p>
+    <p>Price:</p>
+    <p><input type="text" name="pricelaukas"></p>
+
+    <p><input type="submit" value="įrašyti"></p>
+</form>
+
+{% endblock %}
